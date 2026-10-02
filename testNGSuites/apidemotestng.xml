@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ApiDemoSuite">
+<listeners>
+<listener class-name="org.mobile.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="ApiDemoTest">
+    <classes>
+      <class name="org.mobile.AnimationDefaultLayout"/>
+      <class name="org.mobile.AnimationCloning"/>
+      <class name="org.mobile.AnimationCustomEvaluator"/>
+      <class name="org.mobile.AnimationReversing"/>
+      <class name="org.mobile.AnimationBouncingBalls"/>
+    </classes>
+  </test> <!-- ApiDemoTest -->
+</suite> <!-- ApiDemoSuite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApiDemoSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.mobile.Listener"/>
+  </listeners>
+  <test thread-count="5" name="ApiDemoTest(failed)" verbose="0">
+    <classes>
+      <class name="org.mobile.PreferenceTest">
+        <methods>
+          <include name="testFlowOne"/>
+          <include name="quitApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- org.mobile.PreferenceTest -->
+      <class name="org.mobile.DragTest">
+        <methods>
+          <include name="quitApp"/>
+          <include name="launchApp"/>
+          <include name="dragIt"/>
+        </methods>
+      </class> <!-- org.mobile.DragTest -->
+      <class name="org.mobile.SwipeTest">
+        <methods>
+          <include name="swipeIt"/>
+          <include name="quitApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- org.mobile.SwipeTest -->
+    </classes>
+  </test> <!-- ApiDemoTest(failed) -->
+</suite> <!-- Failed suite [ApiDemoSuite] -->

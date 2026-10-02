@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApiDemoSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.mobile.Listener"/>
+  </listeners>
+  <test thread-count="5" name="ApiDemoTest(failed)">
+    <classes>
+      <class name="org.mobile.ScrollTest">
+        <methods>
+          <include name="quitApp"/>
+          <include name="pressLong"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- org.mobile.ScrollTest -->
+      <class name="org.mobile.WifiSettings">
+        <methods>
+          <include name="quitApp"/>
+          <include name="preSetApp"/>
+          <include name="verifyWifiSetting"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- org.mobile.WifiSettings -->
+    </classes>
+  </test> <!-- ApiDemoTest(failed) -->
+</suite> <!-- Failed suite [ApiDemoSuite] -->

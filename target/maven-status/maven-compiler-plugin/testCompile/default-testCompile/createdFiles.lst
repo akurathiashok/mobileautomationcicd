@@ -1,0 +1,15 @@
+org\mobile\AnimationDefaultLayout.class
+org\mobile\ScrollTest.class
+org\mobile\AnimationBouncingBalls.class
+org\mobile\AnimationCloning.class
+org\mobile\BaseTest.class
+org\mobile\ViewsRelatedTests.class
+org\mobile\WifiSettings.class
+org\mobile\AnimationCustomEvaluator.class
+org\mobile\DragTest.class
+org\mobile\AnimationReversing.class
+org\mobile\PreferenceTest.class
+org\mobile\Listener.class
+org\mobile\ReporterNG.class
+org\mobile\longPressTest.class
+org\mobile\SwipeTest.class
